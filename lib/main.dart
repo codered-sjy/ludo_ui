@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ludo_ui/corner_widget.dart';
 import 'package:ludo_ui/inner_triangle_widget.dart';
-import 'package:ludo_ui/inner_square_widget.dart';
 import 'package:ludo_ui/horizontal_movement_widget.dart';
 import 'package:ludo_ui/vertical_movement_widget.dart';
 
@@ -16,6 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Ludo UI',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
