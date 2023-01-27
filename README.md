@@ -2,7 +2,7 @@
 
 Ludo UI using Flutter widgets
 
-![Screenshot](screenshot.png | height=200)
+![Screenshot](screenshot.png)
 
 ## Getting Started
 
